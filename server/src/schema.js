@@ -3,6 +3,7 @@ const { gql } = require("apollo-server");
 const typeDefs = gql`
   type Query {
     tracksForHome: [Track!]!
+    tracksForHomeFetch: [Track!]!
   }
 
   type Track {
